@@ -29,6 +29,8 @@ public class IndexController {
 	
 	@Autowired
 	private ProductService productService;
+	
+	// 깃허브 테스트용 주석
 
 	@GetMapping("/")
 	public String index(Model model) {
