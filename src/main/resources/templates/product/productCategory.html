@@ -115,8 +115,8 @@ table {
 	width: 120px;
 	height: 75px;
 	padding-bottom: 5px;
-	margin-bottom:5px;
-	margin-top:5px;
+	margin-bottom: 5px;
+	margin-top: 5px;
 	padding-top: 5px;
 }
 
@@ -290,17 +290,20 @@ input[type="radio"]:hover+label {
 	width: 16rem;
 	height: 15rem;
 }
-.heartIcon{
+
+.heartIcon {
 	color: red;
 }
 
 #categories_img {
-	width:20px;
-	height:20px;
+	width: 20px;
+	height: 20px;
 }
-.productNot{
+
+.productNot {
 	color: red;
 }
+
 </style>
 </head>
 <header th:replace="hf/header"></header>
@@ -326,20 +329,30 @@ input[type="radio"]:hover+label {
 		</div>
 		<div class="content">
 			<ul class="category-menu" id="categoryMenu">
-				<li><a onclick="loadFragment3('productCategoryMealKit')">
-				<img id="categories_img" src="/img/product/categories/categories_mealkit.png">밀키트</a></li>
-				
-				<li><a onclick="loadFragment3('productCategoryMeat')">
-				<img id="categories_img" src="/img/product/categories/categories_meat.png">고기</a></li>
-				
-				<li><a onclick="loadFragment3('productCategorySeafood')">
-				<img id="categories_img" src="/img/product/categories/categories_seafood.png">해산물</a></li>
-				
-				<li><a onclick="loadFragment3('productCategoryVegetable')">
-				<img id="categories_img" src="/img/product/categories/categories_vegetable.png">채소</a></li>
-				
-				<li><a onclick="loadFragment3('productCategoryFruit')">
-				<img id="categories_img" src="/img/product/categories/categories_fruit.png">과일</a></li>
+				<li><a onclick="loadFragment3('productCategoryMealKit')"
+					class="category-menu_a"> <img id="categories_img"
+						src="/img/product/categories/categories_mealkit.png">밀키트
+				</a></li>
+
+				<li><a onclick="loadFragment3('productCategoryMeat')"
+					class="category-menu_a"> <img id="categories_img"
+						src="/img/product/categories/categories_meat.png">고기
+				</a></li>
+
+				<li><a onclick="loadFragment3('productCategorySeafood')"
+					class="category-menu_a"> <img id="categories_img"
+						src="/img/product/categories/categories_seafood.png">해산물
+				</a></li>
+
+				<li><a onclick="loadFragment3('productCategoryVegetable')"
+					class="category-menu_a"> <img id="categories_img"
+						src="/img/product/categories/categories_vegetable.png">채소
+				</a></li>
+
+				<li><a onclick="loadFragment3('productCategoryFruit')"
+					class="category-menu_a"> <img id="categories_img"
+						src="/img/product/categories/categories_fruit.png">과일
+				</a></li>
 			</ul>
 			<div class="product-container">
 				<div id="productCategory-dynamic"></div>

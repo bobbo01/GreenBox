@@ -15,10 +15,7 @@ import com.kh.Final_Project.customer.vo.CustomerForm;
 import com.kh.Final_Project.product.entity.Product;
 import com.kh.Final_Project.product.service.ProductService;
 
-import lombok.extern.slf4j.Slf4j;
-
 @Controller
-@Slf4j
 public class IndexController {
 
 	@Autowired
